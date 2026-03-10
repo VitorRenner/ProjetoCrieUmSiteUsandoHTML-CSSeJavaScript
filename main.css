@@ -1,0 +1,59 @@
+* {
+    color: vat(--fontColor);
+    font-family:helvetica;
+}
+body {
+    background: var(dark-theme);
+}
+ul {
+
+font-family: helvética;
+
+}
+li{
+    list-style:cicle;
+}
+.list{
+    list-style:square;
+}
+msg {
+    font-family: monospace;
+}
+.light-theme {
+    color:#000000;
+    background-color:00FF00;
+}
+.light-theme {
+   --bg: var(--green);
+    --fontColor: var(--black);
+}
+
+.darl-theme {
+    --bg: var(--green);
+}
+.btn {
+    position:absolute;
+    top:20px;
+    left:250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.btn:focus {
+    outline: none;
+}
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--white);
+    --btnFontColor: var(--white);
+}
+dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
